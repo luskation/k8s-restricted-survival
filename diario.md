@@ -2,7 +2,8 @@
 
 | | |
 |---|---|
-| **Departamento** | Departamento de Ciências da Computação (DCC) |
+| **Departamento** | ]
+Departamento de Ciências da Computação (DCC) |
 | **Aluno** | Lucas Oliveira Rodrigues |
 | **Orientador** | Prof. Rafael Serapilha Durelli |
 | **Tema** | Pod Security Standards (PSS) `restricted` em charts Helm reais |
@@ -155,3 +156,25 @@ _Nenhuma — ainda não há experimentos._
   definir — ex. mais instalados no Artifact Hub).
 - Rodar o primeiro chart em `baseline` e `restricted` e preencher a primeira
   linha real da tabela do §3.
+
+### 2026-08-18
+
+**Objetivo do dia:**
+Leitura e estudo da documentação oficial do Kubernetes, desde overview até services-networking. 
+
+**O que foi feito:**
+- Conclusão dos estudos demarcados, anotações foram realizadas e video aulas foram vistas.
+
+**Resultados / observações:**
+Nenhum experimento rodado ainda.
+
+**Falhas encontradas:**
+_Nenhuma — ainda não há experimentos._
+
+**Próximos passos:**
+- Subir cluster `kind` local.
+- Escolher a lista inicial de N charts a testar (critério de popularidade a
+  definir — ex. mais instalados no Artifact Hub).
+- Rodar o primeiro chart em `baseline` e `restricted` e preencher a primeira
+  linha real da tabela do §3.
+- Terminar os estudos téoricos em configuração e segurança em kubernetes

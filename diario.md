@@ -160,21 +160,56 @@ _Nenhuma — ainda não há experimentos._
 ### 2026-08-18
 
 **Objetivo do dia:**
-Leitura e estudo da documentação oficial do Kubernetes, desde overview até services-networking. 
+Estudo da documentação oficial do Kubernetes, cobrindo desde o overview geral até
+a seção de services-networking, como base teórica para a IC.
 
 **O que foi feito:**
-- Conclusão dos estudos demarcados, anotações foram realizadas e video aulas foram vistas.
+- Leitura das seções da documentação oficial do Kubernetes compreendidas entre
+  "Overview" e "Services, Load Balancing, and Networking".
+- Assistidas video-aulas complementares sobre os mesmos tópicos.
+- Anotações pessoais registradas para consulta futura.
 
 **Resultados / observações:**
-Nenhum experimento rodado ainda.
+Nenhum experimento prático rodado ainda — etapa focada em consolidar a base
+teórica antes de montar o ambiente de testes (`kind`) e iniciar os experimentos
+com os charts Helm.
 
 **Falhas encontradas:**
 _Nenhuma — ainda não há experimentos._
 
 **Próximos passos:**
+- Terminar os estudos teóricos em configuração e segurança no Kubernetes
+  (ConfigMaps, Secrets e tópicos de segurança).
 - Subir cluster `kind` local.
 - Escolher a lista inicial de N charts a testar (critério de popularidade a
   definir — ex. mais instalados no Artifact Hub).
 - Rodar o primeiro chart em `baseline` e `restricted` e preencher a primeira
   linha real da tabela do §3.
-- Terminar os estudos téoricos em configuração e segurança em kubernetes
+
+### 2026-08-19
+
+**Objetivo do dia:**
+Dar continuidade aos estudos teóricos do Kubernetes: aprender ConfigMaps e
+Secrets, e revisar os conceitos estudados no dia anterior (2026-08-18).
+
+**O que foi feito:**
+- Estudo dos conceitos de ConfigMaps e Secrets: propósito, formas de criação e
+  uso por Pods.
+- Revisão dos conceitos vistos em 2026-08-18 (overview até
+  services-networking), para consolidação do conteúdo.
+
+**Resultados / observações:**
+Nenhum experimento prático rodado ainda — etapa ainda concentrada na base
+teórica, em preparação para a montagem do ambiente de testes (`kind`) e o
+início dos experimentos com os charts Helm.
+
+**Falhas encontradas:**
+_Nenhuma — ainda não há experimentos._
+
+**Próximos passos:**
+- Estudar a parte de segurança do Kubernetes (2026-08-20).
+- Subir cluster `kind` local.
+- Escolher a lista inicial de N charts a testar (critério de popularidade a
+  definir — ex. mais instalados no Artifact Hub).
+- Rodar o primeiro chart em `baseline` e `restricted` e preencher a primeira
+  linha real da tabela do §3.

@@ -213,3 +213,49 @@ _Nenhuma — ainda não há experimentos._
   definir — ex. mais instalados no Artifact Hub).
 - Rodar o primeiro chart em `baseline` e `restricted` e preencher a primeira
   linha real da tabela do §3.
+
+### 2026-08-20
+
+**Objetivo do dia:**
+Estudar a seção de segurança da documentação oficial do Kubernetes (PSS, PSA,
+Security Context, RBAC) e os conceitos de arquitetura de cluster necessários
+para montar o ambiente de testes com `kind`.
+
+**O que foi feito:**
+- Estudo da seção "Security" da documentação: Pod Security Standards (PSS),
+  Pod Security Admission (PSA), Security Context e RBAC.
+- Aprofundamento nos três níveis do PSS — `Privileged`, `Baseline` e
+  `Restricted` — e no que cada um permite ou bloqueia.
+- Estudo de para que serve o PSS na prática e dos limites de proteção que ele
+  oferece contra malware (o que ele bloqueia e o que fica fora do seu escopo).
+- Estudo de Helm Charts.
+- Estudo dos primeiros passos após instalar o Kubernetes, incluindo instalação
+  e criação de cluster com `kind`.
+- Estudo do que roda dentro de um cluster: Nodes, Namespaces e Pods.
+- Estudo do que roda dentro de um Worker Node e da relação Node vs. Pod.
+- Estudo da relação entre Namespace, Node e Cluster, com apoio de diagrama.
+- Estudo das vantagens de usar Namespaces em vez de clusters separados.
+- Discussão conceitual sobre Workload — se é uma entidade física ou lógica.
+- Estudo dos componentes do Control Plane: `kube-apiserver`, `etcd`,
+  `scheduler`, `controller-manager` e `cloud-controller-manager`.
+- Estudo da comunicação do `kube-apiserver` intra e extra cluster.
+- Estudo do `etcd` e sua relação com os conceitos de stateful/stateless.
+
+**Resultados / observações:**
+Nenhum experimento prático rodado ainda — dia concentrado em consolidar a base
+teórica de segurança e arquitetura de cluster antes de subir o ambiente
+`kind` e começar os testes com os charts Helm. O estudo do PSS `restricted`
+em detalhe já conecta diretamente com a pergunta de pesquisa (§1) e vai
+ajudar a interpretar as falhas que aparecerem na tabela do §3 e na taxonomia
+do §4.
+
+**Falhas encontradas:**
+_Nenhuma — ainda não há experimentos._
+
+**Próximos passos:**
+- Subir cluster `kind` local, aplicando o que foi estudado hoje sobre
+  instalação e criação de cluster.
+- Escolher a lista inicial de N charts a testar (critério de popularidade a
+  definir — ex. mais instalados no Artifact Hub).
+- Rodar o primeiro chart em `baseline` e `restricted` e preencher a primeira
+  linha real da tabela do §3.

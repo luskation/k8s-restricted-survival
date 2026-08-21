@@ -259,3 +259,43 @@ _Nenhuma — ainda não há experimentos._
   definir — ex. mais instalados no Artifact Hub).
 - Rodar o primeiro chart em `baseline` e `restricted` e preencher a primeira
   linha real da tabela do §3.
+
+### 2026-08-21
+
+**Objetivo do dia:**
+Praticar o fluxo básico de ambiente: criar e destruir um cluster `kind` do
+zero, e instalar/remover um chart qualquer com Helm.
+
+**O que foi feito:**
+- Criado um cluster local com `kind create cluster` e confirmado com
+  `kind get clusters` / `kubectl cluster-info`.
+- Destruído o cluster com `kind delete cluster` e confirmada a remoção.
+- Recriado o cluster para o teste com Helm.
+- Instalado o Helm e adicionado o repositório `bitnami`
+  (`helm repo add bitnami https://charts.bitnami.com/bitnami` +
+  `helm repo update`).
+- Instalado o chart `bitnami/nginx` com valores padrão
+  (`helm install meu-nginx bitnami/nginx`).
+- Verificada a instalação com `helm list`, `kubectl get pods` e
+  `kubectl get svc`.
+- Removido o release com `helm uninstall meu-nginx` e destruído o cluster
+  novamente ao final.
+
+**Resultados / observações:**
+Todas as etapas rodaram sem erros: criação/destruição do cluster e
+instalação/remoção do chart funcionaram de primeira, sem precisar ajustar
+`values.yaml`. Esse chart foi instalado sem nenhum nível de PSS aplicado ao
+namespace — não conta como experimento da tabela do §3, é só ambientação
+prática antes de começar os testes reais com PSS `baseline`/`restricted`.
+
+**Falhas encontradas:**
+_Nenhuma — ainda não há experimentos de PSS, este foi um teste de
+ambientação com Helm sem PSS aplicado._
+
+**Próximos passos:**
+- Estudar Helm com mais profundidade (meta do dia 2026-08-22).
+- Escolher a lista inicial de N charts a testar (critério de popularidade a
+  definir — ex. mais instalados no Artifact Hub).
+- Rotular namespaces com os níveis `baseline` e `restricted` do PSS e rodar
+  o primeiro chart em cada um, preenchendo a primeira linha real da tabela
+  do §3.

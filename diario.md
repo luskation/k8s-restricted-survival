@@ -2,8 +2,7 @@
 
 | | |
 |---|---|
-| **Departamento** | ]
-Departamento de Ciências da Computação (DCC) |
+| **Departamento** | Departamento de Ciências da Computação (DCC) |
 | **Aluno** | Lucas Oliveira Rodrigues |
 | **Orientador** | Prof. Rafael Serapilha Durelli |
 | **Tema** | Pod Security Standards (PSS) `restricted` em charts Helm reais |

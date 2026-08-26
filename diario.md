@@ -299,3 +299,36 @@ ambientação com Helm sem PSS aplicado._
 - Rotular namespaces com os níveis `baseline` e `restricted` do PSS e rodar
   o primeiro chart em cada um, preenchendo a primeira linha real da tabela
   do §3.
+
+### 2026-08-25
+
+**Objetivo do dia:**
+Continuar os estudos teóricos do Kubernetes, agora focando na seção de
+Storage: Volume, PersistentVolume (PV), PersistentVolumeClaim (PVC) e
+StorageClass.
+
+**O que foi feito:**
+- Leitura da seção "Storage" da documentação oficial do Kubernetes.
+- Assistidas vídeo-aulas complementares sobre os mesmos tópicos.
+- Estudo do conceito de Volume e da diferença em relação ao armazenamento
+  efêmero do container.
+- Estudo de PersistentVolume (PV) e PersistentVolumeClaim (PVC): como um PVC
+  solicita armazenamento e é vinculado (bind) a um PV.
+- Estudo de StorageClass e do papel do provisionamento dinâmico de PVs.
+
+**Resultados / observações:**
+Nenhum experimento prático rodado ainda — dia concentrado em consolidar a
+base teórica de Storage, que deve ajudar a interpretar falhas de charts que
+dependam de PVCs quando os experimentos com PSS `baseline`/`restricted`
+começarem.
+
+**Falhas encontradas:**
+_Nenhuma — ainda não há experimentos._
+
+**Próximos passos:**
+- Ler os artigos relacionados com o tema da pesquisa e inserir anotações/sínteses em referencias.md.
+- Escolher a lista inicial de N charts a testar (critério de popularidade a
+  definir — ex. mais instalados no Artifact Hub).
+- Rotular namespaces com os níveis `baseline` e `restricted` do PSS e rodar
+  o primeiro chart em cada um, preenchendo a primeira linha real da tabela
+  do §3.

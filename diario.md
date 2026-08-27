@@ -361,3 +361,34 @@ _Nenhuma — ainda não há experimentos._
 - Rotular namespaces com os níveis `baseline` e `restricted` do PSS e rodar
   o primeiro chart em cada um, preenchendo a primeira linha real da tabela
   do §3.
+
+### 2026-08-27
+
+**Objetivo do dia:**
+Ler o primeiro artigo da lista selecionada em 2026-08-26 e registrar a
+síntese de leitura.
+
+**O que foi feito:**
+- Lido o artigo "RBAClock: Contain RBAC Permissions through Secure
+  Scheduling" (RAID 2025).
+- Escrita a síntese de leitura em `leituras/rbaclock.md`.
+- Atualizado o status do artigo para ✅ na tabela de
+  `artigos/referencias.md`, com link para a síntese.
+
+**Resultados / observações:**
+Nenhum experimento prático rodado ainda — dia dedicado à leitura e síntese
+bibliográfica. Dos 13 artigos selecionados em 2026-08-26, 1 já foi lido e
+sintetizado, restam 12.
+
+**Falhas encontradas:**
+_Nenhuma — ainda não há experimentos._
+
+**Próximos passos:**
+- Ler os 12 artigos restantes e registrar a síntese de cada um em
+  `leituras/`, atualizando o status e o link na tabela de
+  `artigos/referencias.md`.
+- Escolher a lista inicial de N charts a testar (critério de popularidade a
+  definir — ex. mais instalados no Artifact Hub).
+- Rotular namespaces com os níveis `baseline` e `restricted` do PSS e rodar
+  o primeiro chart em cada um, preenchendo a primeira linha real da tabela
+  do §3.

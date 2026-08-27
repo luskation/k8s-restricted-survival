@@ -25,7 +25,7 @@ bibliográfica e, quando lido, um link para a síntese em `leituras/`
 | Increasing security and reducing risks running services in a potential containerized environment while meeting regulatory standards | *(não encontrado com confiança)* | | 🚫 | |
 | Integração de Gestão de Clouds e Automação de Infraestrutura: Um Estudo Prático Baseado em Kubernetes e Terraform | *(não encontrado com confiança — provável TCC/monografia não indexada)* | | 🚫 | |
 | K8s Pro Sentinel: Extend Secret Security in Kubernetes Cluster | Kavindu Gunathilake, Indrajith Ekanayake / 2024 | ICITR 2024 — [arXiv](https://arxiv.org/abs/2411.16639) / [IEEE Xplore](https://ieeexplore.ieee.org/document/10857769/) | 🚫 | |
-| RBAClock: Contain RBAC Permissions through Secure Scheduling | *(autores não confirmados)* | [IEEE Xplore](https://ieeexplore.ieee.org/document/11352399/) | 🚫 | |
+| RBAClock: Contain RBAC Permissions through Secure Scheduling | Qingwang Chen et al. (Institute of Information Engineering, CAS) / 2025 | [IEEE Xplore](https://ieeexplore.ieee.org/document/11352399/) | ✅ | [leituras/rbaclock.md](../leituras/rbaclock.md) |
 | Role-Based Access Control (RBAC) Authorization in Kubernetes | — *(não é artigo científico: é a documentação oficial do Kubernetes, sem autores/ano/DOI)* | [kubernetes.io](https://kubernetes.io/docs/reference/access-authn-authz/rbac/) | 🚫 | |
 | Securing Kubernetes Cluster in Air-Gapped Environment: A Case Study at IMGEOS-NRSC | *(não encontrado com confiança)* | | 🚫 | |
 

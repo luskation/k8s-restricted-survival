@@ -331,3 +331,33 @@ _Nenhuma — ainda não há experimentos._
 - Rotular namespaces com os níveis `baseline` e `restricted` do PSS e rodar
   o primeiro chart em cada um, preenchendo a primeira linha real da tabela
   do §3.
+
+### 2026-08-26
+
+**Objetivo do dia:**
+Selecionar os artigos científicos relacionados ao tema da pesquisa (segurança
+em Kubernetes, Helm e PSS) e organizá-los para leitura.
+
+**O que foi feito:**
+- Pesquisados e selecionados 13 artigos relacionados ao tema da IC.
+- Arquivos das leituras salvos em `pesquisas/`.
+- Os 13 artigos registrados na tabela de `artigos/referencias.md`, com
+  título, autores/ano (quando confirmados), link/DOI e status de leitura.
+
+**Resultados / observações:**
+Nenhum experimento prático rodado ainda — dia dedicado a levantar e
+organizar a bibliografia antes de começar a produzir as sínteses de leitura
+em `leituras/`.
+
+**Falhas encontradas:**
+_Nenhuma — ainda não há experimentos._
+
+**Próximos passos:**
+- Ler os 13 artigos selecionados e registrar a síntese de cada um em
+  `leituras/`, atualizando o status e o link na tabela de
+  `artigos/referencias.md`.
+- Escolher a lista inicial de N charts a testar (critério de popularidade a
+  definir — ex. mais instalados no Artifact Hub).
+- Rotular namespaces com os níveis `baseline` e `restricted` do PSS e rodar
+  o primeiro chart em cada um, preenchendo a primeira linha real da tabela
+  do §3.

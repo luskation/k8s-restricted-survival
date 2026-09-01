@@ -416,3 +416,40 @@ _Nenhuma — ainda não há experimentos._
 - Rotular namespaces com os níveis `baseline` e `restricted` do PSS e rodar
   o primeiro chart em cada um, preenchendo a primeira linha real da tabela
   do §3.
+
+### 2026-09-01
+
+**Objetivo do dia:**
+Ler o artigo "Automated Analysis of Security Policy Violations in Helm
+Charts" e registrar a síntese de leitura.
+
+**O que foi feito:**
+- Lido o artigo "Automated Analysis of Security Policy Violations in Helm
+  Charts" (F. Minna et al., IEEE TDSC 2025).
+- Escrita a síntese de leitura em
+  `leituras/security-policy-violations-helm-charts.md`.
+- Atualizado o status do artigo para ✅ na tabela de
+  `artigos/referencias.md`.
+
+**Resultados / observações:**
+Nenhum experimento prático rodado ainda — dia dedicado à leitura e síntese
+bibliográfica. O artigo trata diretamente do problema de ferramentas de
+análise estática (Checkov, Kubeaudit, Kubescape etc.) discordarem entre si
+sobre o que conta como misconfiguração de segurança em charts Helm, e propõe
+um pipeline que testa correções contra deploys reais para não quebrar
+funcionalidade. Isso conecta com a pergunta de pesquisa (§1): reforça a
+ideia de que não dá para confiar cegamente em um scanner para saber se um
+chart viola o PSS `restricted` — vale testar contra o cluster de verdade,
+que é exatamente o método adotado nesta IC. Dos 13 artigos selecionados em
+2026-08-26, 2 já foram lidos e sintetizados (RBAClock e este), restam 11.
+
+**Falhas encontradas:**
+_Nenhuma — ainda não há experimentos._
+
+**Próximos passos:**
+- Continuar as sínteses dos principais artigos
+- Escolher a lista inicial de N charts a testar (critério de popularidade a
+  definir — ex. mais instalados no Artifact Hub).
+- Rotular namespaces com os níveis `baseline` e `restricted` do PSS e rodar
+  o primeiro chart em cada um, preenchendo a primeira linha real da tabela
+  do §3.

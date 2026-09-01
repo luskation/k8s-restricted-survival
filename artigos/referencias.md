@@ -16,7 +16,7 @@ bibliográfica e, quando lido, um link para a síntese em `leituras/`
 | Título | Autores / Ano | Link / DOI | Status | Síntese |
 |---|---|---|---|---|
 | An Overview of Container Security in a Kubernetes Cluster | *(autores não confirmados)* | [IEEE Xplore](https://ieeexplore.ieee.org/document/10158865/) | 🚫 | |
-| Automated Analysis of Security Policy Violations in Helm Charts | F. Minna et al. *(lista completa não confirmada)* / 2025 | IEEE Transactions on Dependable and Secure Computing — [IEEE Xplore](https://ieeexplore.ieee.org/document/11223885/) *(DOI provável: 10.1109/TDSC.2025.3628213)* | 🚫 | |
+| Automated Analysis of Security Policy Violations in Helm Charts | F. Minna et al. *(lista completa não confirmada)* / 2025 | IEEE Transactions on Dependable and Secure Computing — [IEEE Xplore](https://ieeexplore.ieee.org/document/11223885/) *(DOI provável: 10.1109/TDSC.2025.3628213)* | 📖 | [leituras/security-policy-violations-helm-charts.md](../leituras/security-policy-violations-helm-charts.md) *(notas em andamento)* |
 | Automated Detection and Management of Deprecated Helm Releases in Kubernetes Clusters | Ionut-Catalin Donca (Technical University of Cluj-Napoca) | [IEEE Xplore](https://ieeexplore.ieee.org/document/10328029) | 🚫 | |
 | Automated Security Repair for Helm Charts | F. Minna et al. *(demais coautores não confirmados)* / 2024 | ICSE 2024 Companion — DOI [10.1145/3639478.3643534](https://dl.acm.org/doi/10.1145/3639478.3643534) | 🚫 | |
 | Deploy a Secure Chat Application for Log Monitoring in Kubernetes | *(não encontrado com confiança)* | | 🚫 | |

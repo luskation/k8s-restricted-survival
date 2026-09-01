@@ -392,3 +392,27 @@ _Nenhuma — ainda não há experimentos._
 - Rotular namespaces com os níveis `baseline` e `restricted` do PSS e rodar
   o primeiro chart em cada um, preenchendo a primeira linha real da tabela
   do §3.
+
+### 2026-08-31
+
+**Objetivo do dia:**
+Criar o Currículo Lattes.
+
+**O que foi feito:**
+- Criado o Currículo Lattes.
+
+**Resultados / observações:**
+Nenhum experimento prático rodado ainda — dia dedicado a uma pendência
+administrativa da IC (cadastro do Currículo Lattes).
+
+**Falhas encontradas:**
+_Nenhuma — ainda não há experimentos._
+
+**Próximos passos:**
+- Ler os artigos restantes e registrar a síntese de cada um em `leituras/`,
+  atualizando o status e o link na tabela de `artigos/referencias.md`.
+- Escolher a lista inicial de N charts a testar (critério de popularidade a
+  definir — ex. mais instalados no Artifact Hub).
+- Rotular namespaces com os níveis `baseline` e `restricted` do PSS e rodar
+  o primeiro chart em cada um, preenchendo a primeira linha real da tabela
+  do §3.

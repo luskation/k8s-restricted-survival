@@ -453,3 +453,41 @@ _Nenhuma — ainda não há experimentos._
 - Rotular namespaces com os níveis `baseline` e `restricted` do PSS e rodar
   o primeiro chart em cada um, preenchendo a primeira linha real da tabela
   do §3.
+
+### 2026-09-02
+
+**Objetivo do dia:**
+Ler o artigo "Increasing Security and Reducing Risks Running Services in a
+Potential Containerized Environment While Meeting Regulatory Standards" e
+registrar a síntese de leitura.
+
+**O que foi feito:**
+- Lida a dissertação de mestrado "Increasing Security and Reducing Risks
+  Running Services in a Potential Containerized Environment While Meeting
+  Regulatory Standards" (Oleksandr Pidlubnyi, Universidade de Klagenfurt,
+  2023).
+- Escrita a síntese de leitura em
+  `leituras/increasing-security-reducing-risks.md`.
+- Atualizado o status do artigo para ✅ na tabela de
+  `artigos/referencias.md`, com link para a síntese.
+
+**Resultados / observações:**
+Nenhum experimento prático rodado ainda, dia dedicado à leitura e síntese
+bibliográfica. O trabalho é um relato de hardening manual de um cluster de
+produção real da DaoPay (checklist próprio a partir de várias fontes de
+boas práticas, validado com kube-bench/kube-hunter, CIS Benchmark subindo
+de 69 para 98 PASS), mas não chega a aplicar o PSS `restricted`: o cluster
+usa Kubernetes 1.21 com Pod Security Policy, mecanismo anterior ao PSS, e o
+texto só cita `restricted` de passagem ao mencionar a mesma brecha do
+`runAsGroup` que eu já tinha visto na documentação oficial.
+
+**Falhas encontradas:**
+_Nenhuma, ainda não há experimentos._
+
+**Próximos passos:**
+- Continuar as sínteses dos artigos restantes.
+- Escolher a lista inicial de N charts a testar (critério de popularidade a
+  definir, ex. mais instalados no Artifact Hub).
+- Rotular namespaces com os níveis `baseline` e `restricted` do PSS e rodar
+  o primeiro chart em cada um, preenchendo a primeira linha real da tabela
+  do §3.
